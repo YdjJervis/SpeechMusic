@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp">
+
+            <TextView
+                android:id="@+id/option_tv_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="因为想你 - 郑荣和"/>
+
+            <TextView
+                android:id="@+id/option_tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/option_tv_tip"
+                android:text="00:02 | 04:35"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:paddingRight="30dp">
+
+            <ImageView
+                android:id="@+id/option_play_pause"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/btn_playback_play"/>
+
+            <ImageView
+                android:id="@+id/option_play_next"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/btn_playback_next"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/option_iv_head"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:src="@mipmap/test"
+        app:civ_border_color="#888888"
+        app:civ_border_width="2dp"/>
+
+    <SeekBar
+        android:id="@+id/option_sb_progress"
+        style="@style/Widget.SeekBar.Normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:indeterminate="false"
+        android:maxHeight="6dp"
+        android:minHeight="6dp"/>
+
+</RelativeLayout>

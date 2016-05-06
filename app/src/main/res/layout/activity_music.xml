@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="@android:color/darker_gray">
+
+        <com.aispeech.aios.music.ui.view.LrcView
+            android:id="@+id/lv_lyric"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@android:color/holo_green_dark">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/detailed_ci_head"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@mipmap/test"
+            app:civ_border_width="2dp"
+            android:layout_centerInParent="true"
+            app:civ_border_color="#FFffffff"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
