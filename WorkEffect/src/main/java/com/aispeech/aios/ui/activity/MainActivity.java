@@ -1,4 +1,4 @@
-package com.aispeech.aios;
+package com.aispeech.aios.ui.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
