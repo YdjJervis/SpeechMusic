@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="18dp"
+    android:paddingBottom="18dp">
+
+    <TextView
+        android:id="@+id/item_list_left"
+        style="@style/CharList"
+        android:layout_marginLeft="23dp"
+        android:background="@drawable/item_bg_chat_left"/>
+
+    <TextView
+        android:id="@+id/item_list_right"
+        style="@style/CharList"
+        android:layout_marginRight="33dp"
+        android:layout_gravity="right"
+        android:background="@drawable/item_bg_chat_right"/>
+</FrameLayout>
