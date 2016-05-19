@@ -3,18 +3,18 @@
     android:oneshot="false">
 
     <item
-        android:drawable="@mipmap/wave1"
+        android:drawable="@mipmap/mic_wave1"
         android:duration="75"/>
 
     <item
-        android:drawable="@mipmap/wave2"
+        android:drawable="@mipmap/mic_wave2"
         android:duration="75"/>
 
     <item
-        android:drawable="@mipmap/wave3"
+        android:drawable="@mipmap/mic_wave3"
         android:duration="75"/>
 
     <item
-        android:drawable="@mipmap/wave4"
+        android:drawable="@mipmap/mic_wave4"
         android:duration="75"/>
 </animation-list>

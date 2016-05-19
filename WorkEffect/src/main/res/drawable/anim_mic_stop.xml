@@ -3,31 +3,31 @@
     android:oneshot="false">
 
     <item
-        android:drawable="@mipmap/loading1"
+        android:drawable="@mipmap/mic_loading1"
         android:duration="150"/>
 
     <item
-        android:drawable="@mipmap/loading2"
+        android:drawable="@mipmap/mic_loading2"
         android:duration="150"/>
 
     <item
-        android:drawable="@mipmap/loading3"
+        android:drawable="@mipmap/mic_loading3"
         android:duration="150"/>
 
     <item
-        android:drawable="@mipmap/loading4"
+        android:drawable="@mipmap/mic_loading4"
         android:duration="100"/>
 
     <item
-        android:drawable="@mipmap/loading5"
+        android:drawable="@mipmap/mic_loading5"
         android:duration="80"/>
 
     <item
-        android:drawable="@mipmap/loading6"
+        android:drawable="@mipmap/mic_loading6"
         android:duration="80"/>
 
     <item
-        android:drawable="@mipmap/loading7"
+        android:drawable="@mipmap/mic_loading7"
         android:duration="80"/>
 
 </animation-list>
